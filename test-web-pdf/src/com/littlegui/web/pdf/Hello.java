@@ -87,7 +87,7 @@ public class Hello extends HttpServlet{
         addEmptyLine(preface, 8);
 
         preface.add(new Paragraph(
-                "This document is a preliminary version and not subject to your license agreement or any other agreement with vogella.com ;-).",
+                "This document is just for testing iText basic functionality.",
                 redFont));
 
         document.add(preface);
